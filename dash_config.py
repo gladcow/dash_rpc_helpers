@@ -21,7 +21,7 @@ class DashConfig:
             match = re.findall(r'(.*?)=(.*?)$', self.data, re.MULTILINE)
             self.tokens = {key: value for (key, value) in match}
         except IOError as e:
-            print "[warning] error reading config file: %s" % e
+            print("[warning] error reading config file: %s" % e)
 
         # strip keys in tokens
         for key in self.tokens.keys():

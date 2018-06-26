@@ -51,3 +51,7 @@ class DashdApi():
     # send instant send trx
     def instant_send(self, address_to, amount):
         return self.rpc_command("instantsendtoaddress", address_to, amount)
+
+    # set IX lock for transaction
+    def locktransaction(self, trx_id):
+        return self.rpc_command("locktransaction", trx_id)

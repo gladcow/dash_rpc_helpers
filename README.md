@@ -20,4 +20,6 @@ Call
 
 ### License
 
+See LICENSE file
+
 Released under the MIT license, under the same terms as DashCore itself. See [LICENSE](LICENSE) for more info.
